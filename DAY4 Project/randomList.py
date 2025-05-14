@@ -7,3 +7,4 @@ print(choice)
 
 random_index = random.randint(0,5)
 print(my_list[random_index])
+
