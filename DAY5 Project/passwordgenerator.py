@@ -24,6 +24,8 @@ for char in range(1, nr_numbers + 1):
 
 print(password)
 
+print(f"Your password is : {password} ")
+
 #Hard Level
 password_list = []
 
@@ -40,8 +42,8 @@ print(password_list)
 random.shuffle(password_list)
 print(password_list)
 
-password = ""
+passsword = ""
 for char in password_list:
-  password += char
+  passsword += char
 
-print(f"Your password is: {password}")
+print(f"Your password is: {passsword}")
